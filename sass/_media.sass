@@ -1,0 +1,212 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1700px)
+	.logo_wrap,.logo_bg
+		display: none
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.clubs_wrap .clubs_list
+		width: 90%
+	.main_menu_wrap .main_menu ul .nav-item .nav-link
+		padding: 14px 25px 13px 25px
+	.search_menu form input
+		width: 78%
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	body
+		font-size: 14px
+	.events_carousel_wrapper,.birthday_carousel_wrapp
+		padding: 0 20px
+	.main_menu_wrap
+		.dropdown_menu_wrap
+			.soc_list_dropdown
+				left: 0!important
+			.soc_list_toggle
+				padding: 6px 7px
+
+	.icons
+		width: 40px
+		height: 40px
+		padding: 0
+		line-height: 40px
+		i
+			font-size: 14px
+	.online_tablo
+		.title_tablo
+			h3
+				text-align: center
+	aside
+		ul
+			li
+				text-align: center
+		article
+			img
+				position: static
+				margin-bottom: -1px
+			.owerlay
+				background-color: rgba(31,37,50,1);
+				.coments
+					margin-bottom: 15px
+				.btn_article_link
+					float: left
+	section.happy_birthday
+		margin-top: 50px
+	section.category
+		padding-top: 20px
+	section .category_items .category_item
+		margin: 15px 0
+	section .category_items .category_item_wrapp
+		padding-right: 15px
+		padding-left: 15px
+	section
+		&.statistics
+			.stat_item
+				margin-bottom: 30px
+	aside
+		margin-bottom: 30px
+		.widjet_item
+			.hashtags
+				text-align: center
+	section
+		&.news
+			.news_block
+				.news_item
+					padding-right: 15px
+					margin-top: 15px
+	section
+		&.photo_video
+			padding: 30px 0
+	.video_caption
+		margin-bottom: 30px
+		text-align: center
+	.gall_item_caption
+		text-align: center
+	.photo
+		padding-top: 35px
+	.video
+		padding-bottom: 35px
+
+	.birthday_carousel_wrapp
+		position: relative
+		.birthday_carousel
+		.owl-nav
+			span
+				position: absolute
+				top: 47%
+				z-index: 50
+				display: inline-block
+				cursor: pointer
+				opacity: .5
+				transition: opacity .3s ease
+				&:hover,&:focus,&:active
+					opacity: 1
+					transition: opacity .3s ease
+				i
+					font-size: 32px
+					color: #909398
+			.customNextBtn
+				left: -7px!important
+			.customPrevBtn
+				right: -7px!important
+	.dropdown_menu_wrap, .search_wrap, .sign_in, .soc_linK_menu,
+		margin-top: 0
+	.menu_logo
+		display: none
+	.docs_news .news .news_wrapper
+		padding-right: 15px
+	#turnir_dialog, #live_video
+		display: none
+
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	footer
+		.sponsors
+			padding: 40px
+			img
+				margin: 10px 15px
+		.foot_content
+			padding: 25px 0
+			.foot_colum
+				text-align: center
+				margin-bottom: 30px
+				.informers
+					img
+						float: none
+						margin: 0 auto 20px auto
+	#sign_in_dialog
+		padding: 10px 10px
+		.sign_form
+			padding: 20px
+	.events_carousel_wrapper
+		position: relative
+		.owl_nav
+			width: 100%
+			span
+				position: absolute
+				top: 47%
+				z-index: 50
+				color: #909398
+				font-size: 20px
+				&.events_customPrevBtn
+					right: -5px
+				&.events_customNextBtn
+					left: -5px
+	.search_menu form input
+		width: 67%
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	.main_menu_wrap.fixed_menu .menu_logo
+		display: block
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+	/* Medium Devices, Desktops */
+@media only screen and (min-width : 1200px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1700px)
+	.logo_wrap,.logo_bg
+		display: block
+	.menu_logo
+		display: none
+	.main_menu_wrap.fixed_menu .menu_logo
+		display: block
+
